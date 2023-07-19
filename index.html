@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="icon" href="/images/google.png"> <!-- para colocar un icono en la paestaña  --> 
+    <link rel="stylesheet" href="/css/main.css">
+
+</head>
+<body> <!-- todo lo que el usuario verá  --> 
+    <!-- ENCABEZADO  -->
+    <header><!-- contiene elementos de encabezado (navegacion)  -->
+        <nav> <!-- nav aporta navegacion en la pagina -->
+            <ul class="nav-right-section"> <!-- lista sin orden  -->
+                <li>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/imghp?hl=es-419&tab=ri&authuser=0&ogbl">Imágenes</a>
+                </li>
+
+                <!-- menu con iconos  (lo hicimos en el css por eso la clase)-->
+                <li class="menu">
+                    <a href=""></a>
+                </li>
+                <!-- foto de perfil con direccion url de imagen o puedo seleccionar una de mi compu con /... -->
+                <li class="fotoperfil">
+                    <a href="">
+                        <img src="https://lh3.googleusercontent.com/ogw/AGvuzYYrYh-EdPaOqQKQnFUNzi7mAkOg68PRgdU0mYLXZg=s32-c-mo" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main (división y lo más importante)  -->
+    <main>
+        <!-- Sección del logo(esta en formato png)-->
+        <section class="main-logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+        </section>
+
+        <!-- Buscador/ imput  -->
+        <section class="main-imput">
+            <!-- caja gris redondeada  -->
+            <div class="main-imput-container">
+                <!--icono de busqueda -->
+                <span class="search-icon"></span>
+                <input type="text"> <!-- aquí es donde lo puedo convertir en circulo o cajita check  -->
+                <!-- icono de microfono  -->
+                <a class="micro-icon" href=""></a>
+                <!-- icono de cámara  -->
+                <a class="cam-icon" href=""></a>
+            </div>
+        </section>
+        <!-- Botones -->
+        <section class="main-buttons">
+            <div>
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Voy a tener suerte</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página  -->
+    <footer>
+        
+        <ul>
+            <li class="footer-mex">
+                <a href="">México<br></a>
+            </li>
+        </ul>
+        <ul class="footer-left"> <!-- Elementos de la izquierda -->
+            
+            <li>
+                <a href="https://about.google/?utm_source=google-MX&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/intl/es_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Negocios</a>
+            </li>
+            <li>
+                <a href="https://google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+            </li>
+        </ul>
+        <ul class="footer-rigth"> <!-- Elementos de la derecha -->
+            <li>
+                <a href="https://policies.google.com/privacy?hl=es-MX&fg=1">Privacidad</a>
+            </li>
+            <li>
+                <a href="https://policies.google.com/terms?hl=es-MX&fg=1">Condiciones</a>
+            </li>
+            
+            <li>
+                <!-- <a href="">Preferencias</a> -->
+            
+                <div class="dropdown">
+                    <button>Preferenciassss</button>
+                        <div class="dropdown-content">
+                            <a href="https://www.google.com/preferences?hl=es-MX&fg=1">Configuración de Búsqueda</a>
+                            <a href="https://www.google.com/advanced_search?hl=es-MX&fg=1/">Búsqueda avanzada</a>
+                            <a href="https://myaccount.google.com/yourdata/search?utm_source=googlemenu&fg=1&pli=1">Tus datos en la Búsqueda</a>
+                            <a href="https://myactivity.google.com/product/search?utm_source=google&hl=es-MX&fg=1">Historial de Búsqueda</a>
+                            <a href="https://support.google.com/websearch/?visit_id=638253820557250456-2168924705&hl=es-MX&rd=2#topic=3378866">Buscar en Ayuda</a>
+                            <a href="">Enviar Comentarios</a>
+                            <a href="">Tema</a>
+                        </div>
+                </div>
+            </li>
+
+
+
+        </ul>
+    </footer>
+
+</body>
+</html>
